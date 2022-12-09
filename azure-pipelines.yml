@@ -1,0 +1,63 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger: none
+
+
+
+variables:
+  - group: azsecret
+
+stages:
+  - stage: Provision
+    jobs:
+      - job: Terraformtasks
+        displayName: Terraform Tasks
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+        - task: DownloadSecureFile@1
+          displayName: Download azsecret.conf file
+          name: azsecret
+          inputs:
+            secureFile: 'azsecret.conf'
+        
+        - task: InstallSSHKey@0
+          displayName: Install SSH Key
+          inputs:
+            knownHostsEntry: 'known_hosts'
+            sshpublickey: '$(publickey)'
+            sshKeySecureFile: 'id_rsa'
+        
+        - task: TerraformInstaller@0
+          displayName: tfinstall
+          inputs:
+            terraformVersion: 'latest'
+
+        - task: TerraformTaskV3@3
+          inputs:
+            provider: 'azurerm'
+            command: 'init'
+            workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
+            backendServiceArm: 'newconnection'
+            backendAzureRmResourceGroupName: 'Azuredevops'
+            backendAzureRmStorageAccountName: 'tfstate3623'
+            backendAzureRmContainerName: 'tfstate'
+            backendAzureRmKey: 'terraform.tfstate'
+        
+          
+        - task: TerraformTaskV3@3
+          inputs:
+            provider: 'azurerm'
+            command: 'validate'
+            workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
+        
+        - task: TerraformTaskV3@3
+          inputs:
+            provider: 'azurerm'
+            command: 'apply'
+            workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
+            environmentServiceNameAzureRM: 'newconnection'
+
