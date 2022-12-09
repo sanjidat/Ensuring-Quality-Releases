@@ -122,7 +122,7 @@ stages:
         displayName: Deploy FakeRestAPI
         pool:
           vmImage: 'ubuntu-latest'
-        environment: 'TEST'
+        environment: 'Test'
         strategy:
           runOnce:
             deploy:
@@ -134,7 +134,7 @@ stages:
                   azureSubscription: 'mynewconnection'
                   appType: 'webAppLinux'
                   WebAppName: 'mypro3appservice'
-                  packageForLinux: '$(Pipeline.Workspace)/drop-fakerestapi/$(Build.ArtifactStagingDirectory)/$fakerestapi-(Build.BuildId).zip'
+                  packageForLinux: '$(Pipeline.Workspace)/drop-fakerestapi/$fakerestapi-(Build.BuildId).zip'
 
 
 
