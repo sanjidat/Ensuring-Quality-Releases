@@ -115,6 +115,31 @@ stages:
             ArtifactName: 'drop-selenium'
             publishLocation: 'Container'
 
+
+  - stage: 
+    jobs:
+    - deployment: FakeRestAPI
+    pool:
+      vmImage: 'Ubuntu-18.04'
+    environment: 'test'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+
+          - task: AzureRmWebAppDeployment@4
+            inputs:
+              ConnectionType: 'AzureRM'
+              azureSubscription: 'mynewconnection'
+              appType: 'webAppLinux'
+              WebAppName: 'mypro3appservice'
+              packageForLinux: '$(Pipeline.Workspace)/drop-fakerestapi/$(Build.ArtifactStagingDirectory)/$fakerestapi-(Build.BuildId).zip'
+
+
+
+         
+                 
+
                 
 
 
