@@ -41,7 +41,7 @@ stages:
             provider: 'azurerm'
             command: 'init'
             workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-            backendServiceArm: 'mynewconnection'
+            backendServiceArm: 'myynewconnection2'
             backendAzureRmResourceGroupName: 'Azuredevops'
             backendAzureRmStorageAccountName: 'tfstate3623'
             backendAzureRmContainerName: 'tfstate'
@@ -59,7 +59,7 @@ stages:
             provider: 'azurerm'
             command: 'apply'
             workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-            environmentServiceNameAzureRM: 'mynewconnection'
+            environmentServiceNameAzureRM: 'myynewconnection2'
 
 
   - stage: Archive
