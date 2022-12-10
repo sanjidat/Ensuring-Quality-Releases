@@ -107,4 +107,15 @@ stages:
             artifact: 'seleniumdemo'
             publishLocation: 'pipeline' 
         
-        
+  - stage: Deploy 
+    jobs:
+      - deployment: deploy_fakerestapi
+        displayName: Deploy FakeRestAPI
+        pool:
+          vmImage: 'ubuntu-latest'
+        environment: 'TEST'
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                    
