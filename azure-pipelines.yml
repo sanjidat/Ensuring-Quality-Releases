@@ -121,7 +121,7 @@ stages:
                 inputs:
                   ConnectionType: 'AzureRM'
                   azureSubscription: 'mysc'
-                  appType: 'webAppLinux'
+                  appType: 'webApp'
                   WebAppName: 'mypro3appservice'
                   ResourceGroupName: 'Azuredevops'
                   packageForLinux: '$(Pipeline.Workspace)/fakerestapidemo/fakerestapi-$(Build.BuildId).zip'
