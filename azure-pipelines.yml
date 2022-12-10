@@ -126,3 +126,6 @@ stages:
                   WebAppName: 'mypro3appservice'
                   ResourceGroupName: 'Azuredevops'
                   packageForLinux: '$(Pipeline.Workspace)/fakerestapidemo/fakerestapi-$(Build.BuildId).zip'
+                  DeploymentType: zipDeploy 
+
+               
