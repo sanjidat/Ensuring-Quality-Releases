@@ -123,4 +123,4 @@ stages:
                   azureSubscription: 'mysc'
                   appType: 'webAppLinux'
                   appName: 'mypro3appservice'
-                  package: '$(Build.ArtifactStagingDirectory)/fakerestapidemo/fakerestapi-$(Build.BuildId).zip'
+                  package: '$(Pipeline.Workspace)/fakerestapidemo/fakerestapi-$(Build.BuildId).zip'
