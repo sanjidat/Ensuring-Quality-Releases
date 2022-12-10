@@ -35,19 +35,18 @@ stages:
           displayName: tfinstall
           inputs:
             terraformVersion: 'latest'
-
+        
         - task: TerraformTaskV3@3
           inputs:
             provider: 'azurerm'
             command: 'init'
             workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-            backendServiceArm: 'attempt1'
+            backendServiceArm: 'mysc'
             backendAzureRmResourceGroupName: 'Azuredevops'
             backendAzureRmStorageAccountName: 'tfstate3623'
             backendAzureRmContainerName: 'tfstate'
             backendAzureRmKey: 'terraform.tfstate'
         
-          
         - task: TerraformTaskV3@3
           inputs:
             provider: 'azurerm'
@@ -59,61 +58,6 @@ stages:
             provider: 'azurerm'
             command: 'apply'
             workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-            environmentServiceNameAzureRM: 'attempt1'
-
-
-  - stage: Archive
-    jobs:
-      - job: ArchiveFiles
-        displayName: Archive Files
-        pool:
-          vmImage: 'ubuntu-latest'
-        steps:
-        - task: ArchiveFiles@2
-          displayName: Archive FakerestAPI
-          inputs:
-            rootFolderOrFile: '$(System.DefaultWorkingDirectory)/automatedtesting/jmeter/fakerestapi'
-            includeRootFolder: false
-            archiveType: 'zip'
-            archiveFile: '$(Build.ArtifactStagingDirectory)/fakerestapi-$(Build.BuildId).zip'
+            environmentServiceNameAzureRM: 'mysc'
         
-        - task: PublishBuildArtifacts@1
-          displayName: Publish Fakerestapi Artifact
-          inputs:
-            PathtoPublish: '$(Build.ArtifactStagingDirectory)/fakerestapi-$(Build.BuildId).zip'
-            ArtifactName: 'drop-fakerestapi'
-            publishLocation: 'Container' 
-        
-        - task: ArchiveFiles@2
-          displayName: Archive Jmeter
-          inputs:
-            rootFolderOrFile: '$(System.DefaultWorkingDirectory)/automatedtesting/jmeter'
-            includeRootFolder: false
-            archiveType: 'zip'
-            archiveFile: '$(Build.ArtifactStagingDirectory)/jmeter-$(Build.BuildId).zip'
-           
-        - task: PublishBuildArtifacts@1
-          displayName: Publish Jmeter Artifact
-          inputs:
-            PathtoPublish: '$(Build.ArtifactStagingDirectory)/jmeter-$(Build.BuildId).zip'
-            ArtifactName: 'drop-jmeter'
-            publishLocation: 'Container'
-        
-        - task: ArchiveFiles@2
-          displayName: Archive Selenium
-          inputs:
-            rootFolderOrFile: '$(System.DefaultWorkingDirectory)/automatedtesting/selenium'
-            includeRootFolder: false
-            archiveType: 'zip'
-            archiveFile: '$(Build.ArtifactStagingDirectory)/selenium-$(Build.BuildId).zip'
-            replaceExistingArchive: false
-        
-        - task: PublishBuildArtifacts@1
-          displayName: Publish Selenium Artifact
-          inputs:
-            PathtoPublish: '$(Build.ArtifactStagingDirectory)/selenium-$(Build.BuildId).zip'
-            ArtifactName: 'drop-selenium'
-            publishLocation: 'Container'
-
-
 
