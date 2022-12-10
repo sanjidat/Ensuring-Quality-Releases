@@ -108,9 +108,9 @@ stages:
               - task: AzureRmWebAppDeployment@4
                 inputs:
                   ConnectionType: 'AzureRM'
-                  azureSubscription: 'service-connection-azurerm'
+                  azureSubscription: 'mysc'
                   appType: 'webApp'
-                  WebAppName: 'project3demo-AppService'
+                  WebAppName: 'MyAppTypePro3-AppService'
                   packageForLinux: '$(Pipeline.Workspace)/drop-fakerestapi/fakerestapi-$(Build.BuildId).zip'
                   DeploymentType: zipDeploy 
 
