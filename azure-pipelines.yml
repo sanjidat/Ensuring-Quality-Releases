@@ -73,7 +73,7 @@ stages:
           displayName: Archive FakerestAPI
           inputs:
             rootFolderOrFile: '$(System.DefaultWorkingDirectory)/automatedtesting/jmeter/fakerestapi'
-            includeRootFolder: true
+            includeRootFolder: false
             archiveType: 'zip'
             archiveFile: '$(Build.ArtifactStagingDirectory)/$fakerestapi-(Build.BuildId).zip'
         
@@ -88,7 +88,7 @@ stages:
           displayName: Archive Jmeter
           inputs:
             rootFolderOrFile: '$(System.DefaultWorkingDirectory)/automatedtesting/jmeter'
-            includeRootFolder: true
+            includeRootFolder: false
             archiveType: 'zip'
             archiveFile: '$(Build.ArtifactStagingDirectory)/$jmeter-(Build.BuildId).zip'
            
@@ -103,7 +103,7 @@ stages:
           displayName: Archive Selenium
           inputs:
             rootFolderOrFile: '$(System.DefaultWorkingDirectory)/automatedtesting/selenium'
-            includeRootFolder: true
+            includeRootFolder: false
             archiveType: 'zip'
             archiveFile: '$(Build.ArtifactStagingDirectory)/$selenium-(Build.BuildId).zip'
             replaceExistingArchive: false
