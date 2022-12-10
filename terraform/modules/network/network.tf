@@ -14,7 +14,5 @@ resource "azurerm_subnet" "test" {
   virtual_network_name = "${azurerm_virtual_network.test.name}"
   address_prefixes       = "${var.address_prefix_test}"
 
-  #tags = {
-  #    demo =  "project3dem"
-  #}
+  
 }
