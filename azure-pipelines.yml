@@ -227,7 +227,8 @@ stages:
 
     - job: PerformanceTest
       displayName: Test JMeter
-      pool: myAgentPool
+      pool:
+        vmImage: 'ubuntu-latest'
       steps:
           - bash: |
               echo  '$(System.DefaultWorkingDirectory)'
