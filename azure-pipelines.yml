@@ -141,7 +141,8 @@ stages:
     jobs:
     - job: IntegrationTests
       displayName: Integration Tests For UI and Selenium
-      pool: myAgentPool
+      pool:
+        vmImage: 'ubuntu-latest'
       steps:
       - task: CmdLine@2
         displayName: Install Newman
