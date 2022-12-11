@@ -250,13 +250,13 @@ stages:
                fi    
             displayName: Install JMeter
           - bash: |
-              apache-jmeter-5.5/bin/jmeter -n -t stress.jmx \
+              apache-jmeter-5.5/bin/jmeter -n -t automatedtesting/jmeter/stress.jmx \
                                           -l log/jmeter/result_stress.csv \
                                           -e -f -o log/jmeter \
                                           -j log/jmeter/jmeter-stress-test.log
             displayName: JMeter Stress Test
           - bash: |
-              apache-jmeter-5.5/bin/jmeter -n -t endurance.jmx \
+              apache-jmeter-5.5/bin/jmeter -n -t automatedtesting/jmeter/endurance.jmx \
                                           -l log/jmeter/eresult_endurance.csv \
                                           -e -f -o log/jmeter \
                                           -j log/jmeter/jmeter-endurance-test.log
