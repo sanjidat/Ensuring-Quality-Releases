@@ -160,7 +160,7 @@ stages:
       - task: CmdLine@2
         displayName: Data Validation Tests
         inputs:
-          script: 'newman run ./automatedtesting/postman/DataValidationTest.postman_collection -e ./automatedtesting/postman/TestVariable.postman_environment.json --reporters cli,junit --reporter-junit-export ./automatedtesting/postman/TEST-regression.xml'
+          script: 'newman run ./automatedtesting/postman/DataValidationTest.postman_collection.json -e ./automatedtesting/postman/TestVariable.postman_environment.json --reporters cli,junit --reporter-junit-export ./automatedtesting/postman/TEST-regression.xml'
           workingDirectory: '$(System.DefaultWorkingdirectory)'
       
 
