@@ -231,10 +231,6 @@ stages:
         vmImage: 'ubuntu-latest'
       steps:
           - bash: |
-              echo  '$(System.DefaultWorkingDirectory)'
-              ls -al
-              pwd
-              unzip -o $(Pipeline.Workspace)/drop-jtest/jtest-$(Build.BuildId).zip -d .
               sudo apt-get install openjdk-11-jre-headless -y
               java -version
               wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.5.tgz -O jmeter.tgz
@@ -244,16 +240,14 @@ stages:
                        sudo mkdir /var/log/jmeter
                        sudo chmod 777 /var/log/jmeter
                fi
-               if [ ! -d /var/log/jmeter/endurance_test_report ]; then
-                       sudo mkdir /var/log/jmeter/stress_test_report
-                       sudo chmod 777 /var/log/jmeter/stress_test_report
+               if [ ! -d /var/log/jmeter/stress-test-html-report ]; then
+                       sudo mkdir /var/log/jmeter/stress-test-html-report
+                       sudo chmod 777 /var/log//stress-test-html-report
                fi  
-               if [ ! -d /var/log/jmeter/endurance_test_report ]; then
-                       sudo mkdir /var/log/jmeter/endurance_test_report
-                       sudo chmod 777 /var/log/jmeter/endurance_test_report
-               fi  
-              ls -la
-              pwd  
+               if [ ! -d /var/log/jmeter/endurance-test-html-report ]; then
+                       sudo mkdir /var/log/jmeter/endurance-test-html-report
+                       sudo chmod 777 /var/log/jmeter/endurance-test-html-report
+               fi    
             displayName: Install JMeter
           - bash: |
               apache-jmeter-5.5/bin/jmeter -n -t stress.jmx \
