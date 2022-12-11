@@ -151,6 +151,22 @@ stages:
           workingDirectory: '$(System.DefaultWorkingDirectory)'
       
       - task: CmdLine@2
+        displayName: Regression Tests
         inputs:
           script: 'newman run ./automatedtesting/postman/RegressionTest.postman_collection.json -e ./automatedtesting/postman/TestVariable.postman_environment.json --reporters cli,junit --reporter-junit-export ./automatedtesting/postman/TEST-regression.xml'
           workingDirectory: '$(System.DefaultWorkingdirectory)'
+      
+
+      - task: CmdLine@2
+        displayName: Data Validation Tests
+        inputs:
+          script: 'newman run ./automatedtesting/postman/DataValidationTest.postman_collection -e ./automatedtesting/postman/TestVariable.postman_environment.json --reporters cli,junit --reporter-junit-export ./automatedtesting/postman/TEST-regression.xml'
+          workingDirectory: '$(System.DefaultWorkingdirectory)'
+      
+
+      - task: PublishTestResults@2
+        displayName: Publish Test Results
+        inputs:
+          testResultsFiles: '**/TEST-*.xml'
+          searchFolder: '$(System.DefaultWorkingDirectory)/automatedtesting/postman/'
+          publishRunAttachments: true
