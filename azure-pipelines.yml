@@ -140,7 +140,7 @@ stages:
   - stage: Test
     jobs:
     - job: IntegrationTests
-      displayName: Integration Tests For UI and Selenium
+      displayName: Integration Tests Postman
       pool:
         vmImage: 'ubuntu-latest'
       steps:
@@ -170,3 +170,19 @@ stages:
           testResultsFiles: '**/TEST-*.xml'
           searchFolder: '$(System.DefaultWorkingDirectory)/automatedtesting/postman/'
           publishRunAttachments: true
+    
+
+    - job: UI Test
+      displayName:  Selenium UI Test
+      pool:
+        vmImage: 'ubuntu-latest'
+      steps:
+      - task: Bash@3
+        displayName: VM environment Setup
+        inputs:
+          targetType: 'inline'
+          script: |
+            #! /bin/bash
+            sudo apt-get upgrade -y
+            sudo apt-get install python3-pip -y
+            sudo apt-get install unzip -y
