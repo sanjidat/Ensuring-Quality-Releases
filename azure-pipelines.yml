@@ -172,7 +172,7 @@ stages:
           publishRunAttachments: true
     
 
-    - job: UI Test
+    - job: UITest
       displayName:  Selenium UI Test
       pool:
         vmImage: 'ubuntu-latest'
