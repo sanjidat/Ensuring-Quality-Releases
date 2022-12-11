@@ -136,3 +136,20 @@ stages:
                     AZURE_LOG_ANALYTICS_ID: $(la_workspace_id)
                     AZURE_LOG_ANALYTICS_PRIMARY_KEY: $(la_primary_key)
                   displayName: Configure VM
+  
+  - stage: Test
+    jobs:
+    - job: IntegrationTests
+      displayName: Integration Tests For UI and Selenium
+      pool: myAgentPool
+      steps:
+      - task: CmdLine@2
+        displayName: Install Newman
+        inputs:
+          script: '''sudo npm install -g newman'''
+          workingDirectory: '$(System.DefaultWorkingDirectory)'
+      
+      - task: CmdLine@2
+        inputs:
+          script: 'newman run ./automatedtesting/postman/RegressionTest.postman_collection.json -e ./automatedtesting/postman/TestVariable.postman_environment.json --reporters cli,junit --reporter-junit-export ./automatedtesting/postman/TEST-regression.xml'
+          workingDirectory: '$(System.DefaultWorkingdirectory)'
