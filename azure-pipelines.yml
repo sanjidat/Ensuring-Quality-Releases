@@ -41,7 +41,7 @@ stages:
             provider: 'azurerm'
             command: 'init'
             workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-            backendServiceArm: 'mycon'
+            backendServiceArm: 'myservicecon'
             backendAzureRmResourceGroupName: 'Azuredevops'
             backendAzureRmStorageAccountName: 'tfstate3623'
             backendAzureRmContainerName: 'tfstate'
@@ -58,5 +58,7 @@ stages:
             provider: 'azurerm'
             command: 'apply'
             workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
-            environmentServiceNameAzureRM: 'mycon'
+            environmentServiceNameAzureRM: 'myservicecon'
+        
+
         
