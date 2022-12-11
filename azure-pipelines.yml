@@ -202,5 +202,20 @@ stages:
             unzip chromedriver_linux64.zip
             fi
             export PATH=$PATH:$(Pipeline.Workspace)/chromedriver
+      
+
+      - task: Bash@3
+        inputs:
+          targetType: 'inline'
+          script: |
+            if [ ! -d /var/log/selenium ]; then
+            sudo mkdir /var/log/selenium
+            sudo chmod 777 /var/log/selenium
+            fi            
+            python3 ./automatedtesting/selenium/login.py 2>&1 | sudo tee -a /var/log/selenium/selenium-test.log
+            cd $(System.DefaultWorkingDirectory)
+            mkdir -p log/selenium              
+            sudo cp /var/log/selenium/selenium-test.log log/selenium/selenium-test.log
+            ls -al
 
       
