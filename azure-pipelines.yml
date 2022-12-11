@@ -186,3 +186,18 @@ stages:
             sudo apt-get upgrade -y
             sudo apt-get install python3-pip -y
             sudo apt-get install unzip -y
+
+      - task: Bash@3
+        inputs:
+          targetType: 'inline'
+          script: |
+            #install chromium & selenium
+            sudo apt-get install -y chromium-browser
+            pip3 install selenium
+                        
+            #install chromedriver & export path
+            if [ ! -f $(Pipeline.Workspace)/chromedriver ]; then
+            wget https://chromedriver.storage.googleapis.com/108.0.5359.71/chromedriver_linux64.zip
+            unzip chromedriver_linux64.zip
+            fi
+            export PATH=$PATH:$(Pipeline.Workspace)/chromedriver
