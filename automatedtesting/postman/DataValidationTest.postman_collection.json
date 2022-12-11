@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "4ce647aa-0d99-4d93-adb2-14f8659861c6",
-		"name": "Data Validation Test",
+		"_postman_id": "5ea3c9a4-1d7f-4d29-a7a1-6ee3ff2ccb27",
+		"name": "DataValidationTest",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "23646307"
 	},
@@ -13,10 +13,10 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Successful response\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"success\");\r",
-							"});\r",
-							"var json = pm.response.json();\r",
+							"pm.test(\"Successful response\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"success\");",
+							"});",
+							"var json = pm.response.json();",
 							"pm.environment.set(\"id\", json.data.id);"
 						],
 						"type": "text/javascript"
@@ -28,12 +28,20 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Herro\",\r\n    \"salary\": \"25000\",\r\n    \"age\": \"40\"\r\n}"
+					"raw": "{\n    \"name\": \"{{Era}}\",\n    \"salary\": \"{{40000}}\",\n    \"age\": \"{{26}}\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
 				},
 				"url": {
-					"raw": "{{url}}/{{path_create}}",
+					"raw": "http://dummy.restapiexample.com/{{path_create}}",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"dummy",
+						"restapiexample",
+						"com"
 					],
 					"path": [
 						"{{path_create}}"
@@ -53,8 +61,12 @@
 							"    pm.expect(pm.response.text()).to.include(\"success\");",
 							"});",
 							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
 							"pm.test(\"Body matches string\", function () {",
-							"    pm.expect(pm.response.text()).to.include(\"name\");",
+							"    pm.expect(pm.response.text()).to.include(\"Tiger Nixon\");",
 							"});",
 							"",
 							""
@@ -67,9 +79,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/{{path_get}}",
+					"raw": "http://dummy.restapiexample.com/{{path_get}}",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"dummy",
+						"restapiexample",
+						"com"
 					],
 					"path": [
 						"{{path_get}}"

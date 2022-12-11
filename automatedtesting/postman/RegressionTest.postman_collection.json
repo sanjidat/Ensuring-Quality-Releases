@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "fa64e088-167b-4987-8b96-e81095e2431c",
-		"name": "Regression Test",
+		"_postman_id": "c2228acd-c6c3-4591-98d0-8fa9f4446688",
+		"name": "RegressionTest",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "23646307"
 	},
@@ -19,9 +19,12 @@
 							"var json = pm.response.json();",
 							"pm.environment.set(\"id\", json.data.id);",
 							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
 							"",
 							"pm.test(\"Body matches string\", function () {",
-							"    pm.expect(pm.response.text()).to.include(\"salary\");",
+							"    pm.expect(pm.response.text()).to.include(\"name\");",
 							"});"
 						],
 						"type": "text/javascript"
@@ -41,9 +44,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/{{path_create}}",
+					"raw": "http://dummy.restapiexample.com/{{path_create}}",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"dummy",
+						"restapiexample",
+						"com"
 					],
 					"path": [
 						"{{path_create}}"
@@ -61,26 +67,23 @@
 						"exec": [
 							"pm.test(\"Successful response\", function () {",
 							"    pm.expect(pm.response.text()).to.include(\"success\");",
-							"});"
+							"});",
+							""
 						],
 						"type": "text/javascript"
 					}
 				}
 			],
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
 				"url": {
-					"raw": "{{url}}/{{path_get}}",
+					"raw": "http://dummy.restapiexample.com/{{path_get}}",
+					"protocol": "http",
 					"host": [
-						"{{url}}"
+						"dummy",
+						"restapiexample",
+						"com"
 					],
 					"path": [
 						"{{path_get}}"
