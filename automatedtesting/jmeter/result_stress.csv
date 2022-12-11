@@ -1,0 +1,151 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1670793626182,495,Gets all users,200,OK,Stress Test 1-1,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,495,0,375
+1670793626678,111,Delete Request,200,OK,Stress Test 1-1,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793626789,112,Get by ID Request,200,OK,Stress Test 1-1,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793626944,109,Put Request,200,OK,Stress Test 1-1,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793627054,109,Post Request,200,OK,Stress Test 1-1,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,109,0,0
+1670793628187,595,Gets all users,200,OK,Stress Test 1-2,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,595,0,461
+1670793628784,127,Delete Request,200,OK,Stress Test 1-2,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,127,0,0
+1670793628912,112,Get by ID Request,200,OK,Stress Test 1-2,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793629025,112,Put Request,200,OK,Stress Test 1-2,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793629137,115,Post Request,200,OK,Stress Test 1-2,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,115,0,0
+1670793630184,485,Gets all users,200,OK,Stress Test 1-3,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,485,0,373
+1670793630670,110,Delete Request,200,OK,Stress Test 1-3,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793630781,110,Get by ID Request,200,OK,Stress Test 1-3,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793630892,108,Put Request,200,OK,Stress Test 1-3,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793631035,111,Post Request,200,OK,Stress Test 1-3,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,111,0,0
+1670793632181,529,Gets all users,200,OK,Stress Test 1-4,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,529,0,407
+1670793632710,112,Delete Request,200,OK,Stress Test 1-4,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793632822,112,Get by ID Request,200,OK,Stress Test 1-4,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793632934,113,Put Request,200,OK,Stress Test 1-4,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,113,0,0
+1670793633074,115,Post Request,200,OK,Stress Test 1-4,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,115,0,0
+1670793634187,626,Gets all users,200,OK,Stress Test 1-5,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,626,0,490
+1670793634813,111,Delete Request,200,OK,Stress Test 1-5,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793634924,119,Get by ID Request,200,OK,Stress Test 1-5,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,119,0,0
+1670793635118,110,Put Request,200,OK,Stress Test 1-5,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793635228,109,Post Request,200,OK,Stress Test 1-5,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,109,0,0
+1670793636190,593,Gets all users,200,OK,Stress Test 1-6,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,593,0,439
+1670793636783,109,Delete Request,200,OK,Stress Test 1-6,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793636892,113,Get by ID Request,200,OK,Stress Test 1-6,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,113,0,0
+1670793637005,120,Put Request,200,OK,Stress Test 1-6,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,120,0,0
+1670793637218,108,Post Request,200,OK,Stress Test 1-6,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,108,0,0
+1670793638183,505,Gets all users,200,OK,Stress Test 1-7,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,505,0,385
+1670793638688,112,Delete Request,200,OK,Stress Test 1-7,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793638801,112,Get by ID Request,200,OK,Stress Test 1-7,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793638914,110,Put Request,200,OK,Stress Test 1-7,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793639024,111,Post Request,200,OK,Stress Test 1-7,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,111,0,0
+1670793640185,499,Gets all users,200,OK,Stress Test 1-8,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,499,0,389
+1670793640684,114,Delete Request,200,OK,Stress Test 1-8,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,114,0,0
+1670793640798,110,Get by ID Request,200,OK,Stress Test 1-8,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793640909,109,Put Request,200,OK,Stress Test 1-8,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793641018,109,Post Request,200,OK,Stress Test 1-8,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,109,0,0
+1670793642182,493,Gets all users,200,OK,Stress Test 1-9,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,493,0,382
+1670793642676,111,Delete Request,200,OK,Stress Test 1-9,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793642787,112,Get by ID Request,200,OK,Stress Test 1-9,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793642900,110,Put Request,200,OK,Stress Test 1-9,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793643010,111,Post Request,200,OK,Stress Test 1-9,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,111,0,0
+1670793644185,527,Gets all users,200,OK,Stress Test 1-10,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,526,0,407
+1670793644712,112,Delete Request,200,OK,Stress Test 1-10,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793644825,110,Get by ID Request,200,OK,Stress Test 1-10,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793644935,112,Put Request,200,OK,Stress Test 1-10,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793645047,110,Post Request,200,OK,Stress Test 1-10,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793646183,556,Gets all users,200,OK,Stress Test 1-11,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,555,0,442
+1670793646740,114,Delete Request,200,OK,Stress Test 1-11,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,114,0,0
+1670793646855,111,Get by ID Request,200,OK,Stress Test 1-11,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793646967,112,Put Request,200,OK,Stress Test 1-11,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793647080,111,Post Request,200,OK,Stress Test 1-11,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,111,0,0
+1670793648185,523,Gets all users,200,OK,Stress Test 1-12,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,523,0,412
+1670793648708,111,Delete Request,200,OK,Stress Test 1-12,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793648820,110,Get by ID Request,200,OK,Stress Test 1-12,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793648932,110,Put Request,200,OK,Stress Test 1-12,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793649043,110,Post Request,200,OK,Stress Test 1-12,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793650192,499,Gets all users,200,OK,Stress Test 1-13,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,499,0,378
+1670793650691,109,Delete Request,200,OK,Stress Test 1-13,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793650800,108,Get by ID Request,200,OK,Stress Test 1-13,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793650908,110,Put Request,200,OK,Stress Test 1-13,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793651019,110,Post Request,200,OK,Stress Test 1-13,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793652183,520,Gets all users,200,OK,Stress Test 1-14,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,520,0,408
+1670793652703,111,Delete Request,200,OK,Stress Test 1-14,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793652815,109,Get by ID Request,200,OK,Stress Test 1-14,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793652924,110,Put Request,200,OK,Stress Test 1-14,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793653035,109,Post Request,200,OK,Stress Test 1-14,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,109,0,0
+1670793654183,535,Gets all users,200,OK,Stress Test 1-15,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,535,0,422
+1670793654718,111,Delete Request,200,OK,Stress Test 1-15,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793654829,110,Get by ID Request,200,OK,Stress Test 1-15,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793654939,109,Put Request,200,OK,Stress Test 1-15,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793655049,109,Post Request,200,OK,Stress Test 1-15,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,109,0,0
+1670793656184,497,Gets all users,200,OK,Stress Test 1-16,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,497,0,382
+1670793656682,112,Delete Request,200,OK,Stress Test 1-16,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793656794,112,Get by ID Request,200,OK,Stress Test 1-16,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793656906,112,Put Request,200,OK,Stress Test 1-16,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793657018,113,Post Request,200,OK,Stress Test 1-16,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,113,0,0
+1670793658190,502,Gets all users,200,OK,Stress Test 1-17,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,502,0,388
+1670793658692,110,Delete Request,200,OK,Stress Test 1-17,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793658811,110,Get by ID Request,200,OK,Stress Test 1-17,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793658921,111,Put Request,200,OK,Stress Test 1-17,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793659032,112,Post Request,200,OK,Stress Test 1-17,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,112,0,0
+1670793660187,565,Gets all users,200,OK,Stress Test 1-18,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,565,0,454
+1670793660752,112,Delete Request,200,OK,Stress Test 1-18,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793660864,110,Get by ID Request,200,OK,Stress Test 1-18,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793660974,114,Put Request,200,OK,Stress Test 1-18,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,114,0,0
+1670793661088,110,Post Request,200,OK,Stress Test 1-18,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793662182,528,Gets all users,200,OK,Stress Test 1-19,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,528,0,416
+1670793662711,112,Delete Request,200,OK,Stress Test 1-19,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793662941,108,Get by ID Request,200,OK,Stress Test 1-19,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793663049,108,Put Request,200,OK,Stress Test 1-19,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793663157,108,Post Request,200,OK,Stress Test 1-19,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,108,0,0
+1670793664178,557,Gets all users,200,OK,Stress Test 1-20,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,557,0,438
+1670793664735,110,Delete Request,200,OK,Stress Test 1-20,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793664949,110,Get by ID Request,200,OK,Stress Test 1-20,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793665059,130,Put Request,200,OK,Stress Test 1-20,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,130,0,0
+1670793665189,159,Post Request,200,OK,Stress Test 1-20,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,159,0,0
+1670793666183,511,Gets all users,200,OK,Stress Test 1-21,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,511,0,397
+1670793666695,110,Delete Request,200,OK,Stress Test 1-21,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793666805,111,Get by ID Request,200,OK,Stress Test 1-21,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793666951,110,Put Request,200,OK,Stress Test 1-21,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793667062,110,Post Request,200,OK,Stress Test 1-21,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793668178,569,Gets all users,200,OK,Stress Test 1-22,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,569,0,449
+1670793668748,111,Delete Request,200,OK,Stress Test 1-22,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793668859,114,Get by ID Request,200,OK,Stress Test 1-22,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,114,0,0
+1670793668984,113,Put Request,200,OK,Stress Test 1-22,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,113,0,0
+1670793669098,139,Post Request,200,OK,Stress Test 1-22,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,139,0,0
+1670793670177,525,Gets all users,200,OK,Stress Test 1-23,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,525,0,401
+1670793670704,114,Delete Request,200,OK,Stress Test 1-23,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,114,0,0
+1670793670819,109,Get by ID Request,200,OK,Stress Test 1-23,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793670987,110,Put Request,200,OK,Stress Test 1-23,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793671098,110,Post Request,200,OK,Stress Test 1-23,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793672188,502,Gets all users,200,OK,Stress Test 1-24,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,502,0,388
+1670793672691,120,Delete Request,200,OK,Stress Test 1-24,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,120,0,0
+1670793672812,111,Get by ID Request,200,OK,Stress Test 1-24,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793673019,112,Put Request,200,OK,Stress Test 1-24,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793673131,112,Post Request,200,OK,Stress Test 1-24,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,112,0,0
+1670793674184,528,Gets all users,200,OK,Stress Test 1-25,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,528,0,404
+1670793674712,110,Delete Request,200,OK,Stress Test 1-25,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793674823,112,Get by ID Request,200,OK,Stress Test 1-25,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793675037,110,Put Request,200,OK,Stress Test 1-25,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793675147,111,Post Request,200,OK,Stress Test 1-25,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,111,0,0
+1670793676188,525,Gets all users,200,OK,Stress Test 1-26,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,525,0,400
+1670793676713,109,Delete Request,200,OK,Stress Test 1-26,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793676823,109,Get by ID Request,200,OK,Stress Test 1-26,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793676932,108,Put Request,200,OK,Stress Test 1-26,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793677087,112,Post Request,200,OK,Stress Test 1-26,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,112,0,0
+1670793678184,551,Gets all users,200,OK,Stress Test 1-27,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,551,0,440
+1670793678735,110,Delete Request,200,OK,Stress Test 1-27,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793678846,111,Get by ID Request,200,OK,Stress Test 1-27,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793678957,129,Put Request,200,OK,Stress Test 1-27,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,129,0,0
+1670793679200,117,Post Request,200,OK,Stress Test 1-27,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,117,0,0
+1670793680188,571,Gets all users,200,OK,Stress Test 1-28,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,571,0,445
+1670793680759,108,Delete Request,200,OK,Stress Test 1-28,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793680868,108,Get by ID Request,200,OK,Stress Test 1-28,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793680977,108,Put Request,200,OK,Stress Test 1-28,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793681191,111,Post Request,200,OK,Stress Test 1-28,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,111,0,0
+1670793682187,546,Gets all users,200,OK,Stress Test 1-29,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,546,0,428
+1670793682734,114,Delete Request,200,OK,Stress Test 1-29,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,114,0,0
+1670793682848,108,Get by ID Request,200,OK,Stress Test 1-29,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793682956,114,Put Request,200,OK,Stress Test 1-29,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,114,0,0
+1670793683128,110,Post Request,200,OK,Stress Test 1-29,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793684186,630,Gets all users,200,OK,Stress Test 1-30,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,630,0,442
+1670793684817,199,Delete Request,200,OK,Stress Test 1-30,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,199,0,0
+1670793685016,114,Get by ID Request,200,OK,Stress Test 1-30,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,114,0,0
+1670793685435,111,Put Request,200,OK,Stress Test 1-30,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793685547,112,Post Request,200,OK,Stress Test 1-30,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,112,0,0

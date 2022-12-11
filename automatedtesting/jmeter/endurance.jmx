@@ -138,7 +138,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">C:\Users\Sabrina\Desktop\Ensuring-Quality-Releases\automatedtesting\jmeter\new.csv</stringProp>
+          <stringProp name="filename">C:\Users\Sabrina\Desktop\Ensuring-Quality-Releases\automatedtesting\jmeter\result_endurance.csv</stringProp>
         </ResultCollector>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Delete Request" enabled="true">

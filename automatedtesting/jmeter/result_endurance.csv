@@ -1,0 +1,151 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1670793186631,575,Gets all users,200,OK,Endurance Test 1-1,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,575,0,449
+1670793187206,112,Delete Request,200,OK,Endurance Test 1-1,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793187318,112,Get by ID Request,200,OK,Endurance Test 1-1,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793187430,114,Put Request,200,OK,Endurance Test 1-1,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,114,0,0
+1670793187545,110,Post Request,200,OK,Endurance Test 1-1,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793188630,497,Gets all users,200,OK,Endurance Test 1-2,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,497,0,380
+1670793189127,111,Delete Request,200,OK,Endurance Test 1-2,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793189238,110,Get by ID Request,200,OK,Endurance Test 1-2,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793189349,109,Put Request,200,OK,Endurance Test 1-2,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793189459,110,Post Request,200,OK,Endurance Test 1-2,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793190634,494,Gets all users,200,OK,Endurance Test 1-3,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,494,0,372
+1670793191128,110,Delete Request,200,OK,Endurance Test 1-3,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793191238,111,Get by ID Request,200,OK,Endurance Test 1-3,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793191349,110,Put Request,200,OK,Endurance Test 1-3,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793191459,112,Post Request,200,OK,Endurance Test 1-3,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,112,0,0
+1670793192632,494,Gets all users,200,OK,Endurance Test 1-4,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,494,0,369
+1670793193126,116,Delete Request,200,OK,Endurance Test 1-4,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,116,0,0
+1670793193242,110,Get by ID Request,200,OK,Endurance Test 1-4,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793193353,110,Put Request,200,OK,Endurance Test 1-4,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793193464,109,Post Request,200,OK,Endurance Test 1-4,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,109,0,0
+1670793194613,499,Gets all users,200,OK,Endurance Test 1-5,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,499,0,371
+1670793195112,115,Delete Request,200,OK,Endurance Test 1-5,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,115,0,0
+1670793195227,111,Get by ID Request,200,OK,Endurance Test 1-5,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793195337,109,Put Request,200,OK,Endurance Test 1-5,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793195447,109,Post Request,200,OK,Endurance Test 1-5,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,109,0,0
+1670793196616,509,Gets all users,200,OK,Endurance Test 1-6,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,509,0,371
+1670793197126,111,Delete Request,200,OK,Endurance Test 1-6,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793197241,108,Get by ID Request,200,OK,Endurance Test 1-6,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793197349,110,Put Request,200,OK,Endurance Test 1-6,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793197460,109,Post Request,200,OK,Endurance Test 1-6,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,109,0,0
+1670793198630,488,Gets all users,200,OK,Endurance Test 1-7,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,488,0,369
+1670793199118,111,Delete Request,200,OK,Endurance Test 1-7,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793199230,122,Get by ID Request,200,OK,Endurance Test 1-7,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,122,0,0
+1670793199352,109,Put Request,200,OK,Endurance Test 1-7,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793199462,109,Post Request,200,OK,Endurance Test 1-7,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,109,0,0
+1670793200633,497,Gets all users,200,OK,Endurance Test 1-8,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,497,0,373
+1670793201130,111,Delete Request,200,OK,Endurance Test 1-8,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793201241,110,Get by ID Request,200,OK,Endurance Test 1-8,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793201352,110,Put Request,200,OK,Endurance Test 1-8,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793201463,110,Post Request,200,OK,Endurance Test 1-8,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793202631,481,Gets all users,200,OK,Endurance Test 1-9,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,481,0,372
+1670793203113,111,Delete Request,200,OK,Endurance Test 1-9,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793203224,110,Get by ID Request,200,OK,Endurance Test 1-9,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793203345,110,Put Request,200,OK,Endurance Test 1-9,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793203455,111,Post Request,200,OK,Endurance Test 1-9,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793204631,511,Gets all users,200,OK,Endurance Test 1-10,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,510,0,388
+1670793205142,108,Delete Request,200,OK,Endurance Test 1-10,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793205251,108,Get by ID Request,200,OK,Endurance Test 1-10,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793205363,110,Put Request,200,OK,Endurance Test 1-10,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793205474,110,Post Request,200,OK,Endurance Test 1-10,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793206634,492,Gets all users,200,OK,Endurance Test 1-11,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,492,0,372
+1670793207126,111,Delete Request,200,OK,Endurance Test 1-11,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793207238,110,Get by ID Request,200,OK,Endurance Test 1-11,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793207348,110,Put Request,200,OK,Endurance Test 1-11,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793207458,113,Post Request,200,OK,Endurance Test 1-11,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,113,0,0
+1670793208631,719,Gets all users,200,OK,Endurance Test 1-12,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,719,0,535
+1670793209350,139,Delete Request,200,OK,Endurance Test 1-12,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,139,0,0
+1670793209490,130,Get by ID Request,200,OK,Endurance Test 1-12,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,130,0,0
+1670793209620,144,Put Request,200,OK,Endurance Test 1-12,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,144,0,0
+1670793209764,112,Post Request,200,OK,Endurance Test 1-12,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,112,0,0
+1670793210633,500,Gets all users,200,OK,Endurance Test 1-13,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,500,0,379
+1670793211133,110,Delete Request,200,OK,Endurance Test 1-13,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793211243,111,Get by ID Request,200,OK,Endurance Test 1-13,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793211354,109,Put Request,200,OK,Endurance Test 1-13,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793211476,114,Post Request,200,OK,Endurance Test 1-13,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,114,0,0
+1670793212635,494,Gets all users,200,OK,Endurance Test 1-14,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,494,0,382
+1670793213130,111,Delete Request,200,OK,Endurance Test 1-14,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793213242,110,Get by ID Request,200,OK,Endurance Test 1-14,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793213353,111,Put Request,200,OK,Endurance Test 1-14,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793213465,112,Post Request,200,OK,Endurance Test 1-14,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,112,0,0
+1670793214633,494,Gets all users,200,OK,Endurance Test 1-15,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,494,0,374
+1670793215127,113,Delete Request,200,OK,Endurance Test 1-15,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,113,0,0
+1670793215241,110,Get by ID Request,200,OK,Endurance Test 1-15,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793215352,109,Put Request,200,OK,Endurance Test 1-15,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793215461,117,Post Request,200,OK,Endurance Test 1-15,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,117,0,0
+1670793216641,504,Gets all users,200,OK,Endurance Test 1-16,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,504,0,392
+1670793217145,109,Delete Request,200,OK,Endurance Test 1-16,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793217254,114,Get by ID Request,200,OK,Endurance Test 1-16,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,114,0,0
+1670793217368,111,Put Request,200,OK,Endurance Test 1-16,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793217479,110,Post Request,200,OK,Endurance Test 1-16,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793218638,574,Gets all users,200,OK,Endurance Test 1-17,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,574,0,464
+1670793219212,109,Delete Request,200,OK,Endurance Test 1-17,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793219322,108,Get by ID Request,200,OK,Endurance Test 1-17,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793219430,114,Put Request,200,OK,Endurance Test 1-17,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,114,0,0
+1670793219545,115,Post Request,200,OK,Endurance Test 1-17,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,115,0,0
+1670793220641,489,Gets all users,200,OK,Endurance Test 1-18,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,489,0,371
+1670793221131,111,Delete Request,200,OK,Endurance Test 1-18,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793221243,112,Get by ID Request,200,OK,Endurance Test 1-18,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793221355,112,Put Request,200,OK,Endurance Test 1-18,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793221467,109,Post Request,200,OK,Endurance Test 1-18,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,109,0,0
+1670793222637,493,Gets all users,200,OK,Endurance Test 1-19,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,493,0,365
+1670793223131,111,Delete Request,200,OK,Endurance Test 1-19,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793223242,117,Get by ID Request,200,OK,Endurance Test 1-19,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,117,0,0
+1670793223359,111,Put Request,200,OK,Endurance Test 1-19,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793223471,110,Post Request,200,OK,Endurance Test 1-19,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793224637,483,Gets all users,200,OK,Endurance Test 1-20,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,483,0,373
+1670793225120,109,Delete Request,200,OK,Endurance Test 1-20,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793225229,108,Get by ID Request,200,OK,Endurance Test 1-20,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793225338,110,Put Request,200,OK,Endurance Test 1-20,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793225448,110,Post Request,200,OK,Endurance Test 1-20,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793226653,554,Gets all users,200,OK,Endurance Test 1-21,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,554,0,441
+1670793227207,112,Delete Request,200,OK,Endurance Test 1-21,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793227319,111,Get by ID Request,200,OK,Endurance Test 1-21,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793227431,111,Put Request,200,OK,Endurance Test 1-21,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793227542,112,Post Request,200,OK,Endurance Test 1-21,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,112,0,0
+1670793228615,529,Gets all users,200,OK,Endurance Test 1-22,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,529,0,413
+1670793229145,113,Delete Request,200,OK,Endurance Test 1-22,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,113,0,0
+1670793229275,111,Get by ID Request,200,OK,Endurance Test 1-22,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793229386,115,Put Request,200,OK,Endurance Test 1-22,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,115,0,0
+1670793229502,118,Post Request,200,OK,Endurance Test 1-22,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,117,0,0
+1670793230616,498,Gets all users,200,OK,Endurance Test 1-23,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,498,0,376
+1670793231115,109,Delete Request,200,OK,Endurance Test 1-23,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793231225,429,Get by ID Request,200,OK,Endurance Test 1-23,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,429,0,0
+1670793231654,110,Put Request,200,OK,Endurance Test 1-23,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793231764,109,Post Request,200,OK,Endurance Test 1-23,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,109,0,0
+1670793232622,483,Gets all users,200,OK,Endurance Test 1-24,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,483,0,371
+1670793233106,108,Delete Request,200,OK,Endurance Test 1-24,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793233214,110,Get by ID Request,200,OK,Endurance Test 1-24,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793233324,110,Put Request,200,OK,Endurance Test 1-24,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793233434,109,Post Request,200,OK,Endurance Test 1-24,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,109,0,0
+1670793234622,483,Gets all users,200,OK,Endurance Test 1-25,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,483,0,374
+1670793235106,109,Delete Request,200,OK,Endurance Test 1-25,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793235215,115,Get by ID Request,200,OK,Endurance Test 1-25,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,115,0,0
+1670793235364,110,Put Request,200,OK,Endurance Test 1-25,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793235476,117,Post Request,200,OK,Endurance Test 1-25,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,117,0,0
+1670793236639,486,Gets all users,200,OK,Endurance Test 1-26,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,486,0,373
+1670793237125,109,Delete Request,200,OK,Endurance Test 1-26,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793237235,114,Get by ID Request,200,OK,Endurance Test 1-26,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,114,0,0
+1670793237360,111,Put Request,200,OK,Endurance Test 1-26,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793237471,112,Post Request,200,OK,Endurance Test 1-26,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,112,0,0
+1670793238648,479,Gets all users,200,OK,Endurance Test 1-27,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,479,0,361
+1670793239127,108,Delete Request,200,OK,Endurance Test 1-27,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,108,0,0
+1670793239235,107,Get by ID Request,200,OK,Endurance Test 1-27,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,107,0,0
+1670793239342,109,Put Request,200,OK,Endurance Test 1-27,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,109,0,0
+1670793239451,110,Post Request,200,OK,Endurance Test 1-27,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793240638,484,Gets all users,200,OK,Endurance Test 1-28,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,484,0,365
+1670793241122,111,Delete Request,200,OK,Endurance Test 1-28,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793241233,110,Get by ID Request,200,OK,Endurance Test 1-28,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,110,0,0
+1670793241343,111,Put Request,200,OK,Endurance Test 1-28,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793241454,109,Post Request,200,OK,Endurance Test 1-28,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,109,0,0
+1670793242621,496,Gets all users,200,OK,Endurance Test 1-29,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,496,0,378
+1670793243117,111,Delete Request,200,OK,Endurance Test 1-29,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793243228,113,Get by ID Request,200,OK,Endurance Test 1-29,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,113,0,0
+1670793243341,150,Put Request,200,OK,Endurance Test 1-29,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,150,0,0
+1670793243491,110,Post Request,200,OK,Endurance Test 1-29,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,110,0,0
+1670793244635,509,Gets all users,200,OK,Endurance Test 1-30,text,true,,784,176,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,509,0,390
+1670793245145,111,Delete Request,200,OK,Endurance Test 1-30,,true,,211,264,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,111,0,0
+1670793245256,112,Get by ID Request,200,OK,Endurance Test 1-30,text,true,,310,178,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793245368,112,Put Request,200,OK,Endurance Test 1-30,text,true,,262,261,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users/1,112,0,0
+1670793245495,111,Post Request,200,OK,Endurance Test 1-30,text,true,,262,260,1,1,https://myapptypepro3-apps.azurewebsites.net/api/Users,111,0,0
