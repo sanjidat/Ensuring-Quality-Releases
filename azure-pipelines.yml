@@ -198,8 +198,8 @@ stages:
                         
             #install chromedriver & export path
             if [ ! -f $(Pipeline.Workspace)/chromedriver ]; then
-            wget https://chromedriver.storage.googleapis.com/108.0.5359.71/chromedriver_linux64.zip
-            unzip chromedriver_linux64.zip
+              wget https://chromedriver.storage.googleapis.com/108.0.5359.71/chromedriver_linux64.zip
+              unzip chromedriver_linux64.zip
             fi
             export PATH=$PATH:$(Pipeline.Workspace)/chromedriver
       
@@ -209,8 +209,8 @@ stages:
           targetType: 'inline'
           script: |
             if [ ! -d /var/log/selenium ]; then
-            sudo mkdir /var/log/selenium
-            sudo chmod 777 /var/log/selenium
+                  sudo mkdir /var/log/selenium
+                  sudo chmod 777 /var/log/selenium
             fi            
             python3 ./automatedtesting/selenium/login.py 2>&1 | sudo tee -a /var/log/selenium/selenium-test.log
             cd $(System.DefaultWorkingDirectory)
