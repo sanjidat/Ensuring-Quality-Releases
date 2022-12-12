@@ -214,8 +214,8 @@ stages:
             fi            
             python3 ./automatedtesting/selenium/login.py 2>&1 | sudo tee -a /var/log/selenium/selenium-test.log
             cd $(System.DefaultWorkingDirectory)
-            mkdir -p log/selenium              
-            sudo cp /var/log/selenium/selenium-test.log log/selenium/selenium-test.log
+            #mkdir -p log/selenium              
+            sudo cp /var/log/selenium/selenium-test.log automatedtesting/selenium/selenium-test.log
             ls -al
       
 
