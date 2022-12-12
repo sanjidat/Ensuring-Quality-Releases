@@ -37,6 +37,7 @@ stages:
             terraformVersion: 'latest'
         
         - task: TerraformTaskV3@3
+          displayName: Terraform Init
           inputs:
             provider: 'azurerm'
             command: 'init'
@@ -48,12 +49,14 @@ stages:
             backendAzureRmKey: 'terraform.tfstate'
         
         - task: TerraformTaskV3@3
+          displayName: Terraform Validate
           inputs:
             provider: 'azurerm'
             command: 'validate'
             workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/environments/test'
         
         - task: TerraformTaskV3@3
+          displayName: Terraform Apply
           inputs:
             provider: 'azurerm'
             command: 'apply'
@@ -205,6 +208,7 @@ stages:
       
 
       - task: Bash@3
+        displayName: Run UI test
         inputs:
           targetType: 'inline'
           script: |
@@ -220,6 +224,7 @@ stages:
       
 
       - task: PublishPipelineArtifact@1
+        displayName: Publish selenium logs
         inputs:
           targetPath: '$(System.DefaultWorkingDirectory)/log/selenium/selenium-test.log'
           artifact: 'drop-seleniumlog'
@@ -264,6 +269,7 @@ stages:
 
 
           - task: ArchiveFiles@2
+            displayName: Saving JMeter stress test report to artifact
             inputs:
               rootFolderOrFile: '$(System.DefaultWorkingDirectory)/log/jmeter'
               includeRootFolder: false
@@ -272,6 +278,7 @@ stages:
               replaceExistingArchive: false
 
           - task: ArchiveFiles@2
+            displayName: Saving JMeter endurance test report to artifact
             inputs:
               rootFolderOrFile: '$(System.DefaultWorkingDirectory)/log/jmeter'
               includeRootFolder: true
@@ -281,6 +288,7 @@ stages:
               verbose: true
 
           - task: PublishPipelineArtifact@1
+            displayName: Publish JMeter logs
             inputs:
               targetPath: '$(System.DefaultWorkingDirectory)/log/jmeter'
               artifact: 'drop-jmeter-logs'
